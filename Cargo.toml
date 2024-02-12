@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/pcf-serde"]
+
+[package]
+name = "panda-config"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+
+[dev-dependencies]
+rstest = "0.18.2"
